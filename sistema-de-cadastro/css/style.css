@@ -1,0 +1,259 @@
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style:none;
+}
+body{
+	font-family: 'IM Fell French Canon SC', serif;
+}
+a{
+	text-decoration: none;
+}
+#relatoriodata
+{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-left:30em; 
+	margin-top:10em;
+	background: #afafaf;
+	text-align: center;
+}
+#escolhadatasb{
+	padding: 10%;
+	margin: 18%;
+	../includes/phplot/phplot.php
+}
+#login{
+	width:300px;
+	margin:0 auto;
+	position:relative;
+	top:150px;
+	border:1px solid #001;
+	padding:10px;
+	background: #dbdbdb;
+}
+#login label{
+	display: block;
+}
+.logo{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	width:200px;
+	height:90px;
+	margin:1 auto;
+	padding:2px;
+	position: relative;
+	top:5px;
+}.flash{
+	width:100%;
+	height:60px;
+	background: #c00;
+	opacity:0.5;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	position: absolute;
+	top:0;
+	left:0;
+	font-family: 'IM Fell French Canon SC', serif;
+
+}#sbgerarrelatorio{
+	margin-left: 25px;
+    margin-top: 0px;
+}
+#grafico{
+	margin-left:28%;
+	margin-top:10%;
+}
+#nomedata{
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	margin-top:15em;
+	background: #afafaf;
+	text-align: center;
+}
+#cadastrar{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 15px;
+	height:60px;
+	width:200px;
+	background: #979696;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	right:0;
+	top:0;
+	z-index: 2;
+	font-family: 'IM Fell French Canon SC', serif;
+
+}#txt{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 15px;
+	height:60px;
+	width:200px;
+	background: #979696;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	left:15em;
+	top:0;
+	z-index: 2;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+#txt a{
+	padding-top:5px;
+	display:block;
+	font-family: 'IM Fell French Canon SC', serif;
+	color:rgb(0, 0, 0);
+}
+#relatorio{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 15px;
+	height:60px;
+	width:200px;
+	background: #979696;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 2;
+	font-family: 'IM Fell French Canon SC', serif;
+
+}
+
+
+#cadastrar a{
+	padding-top:5px;
+	display:block;
+	font-family: 'IM Fell French Canon SC', serif;
+	color:rgb(0, 0, 0);
+}
+#cadastrar:hover a{
+	color:#fff;
+}
+#cadastrar:hover{
+	background: #050505;
+	color:#fff;
+}
+#relatorio a{
+	padding-top:5px;
+	display:block;
+	font-family: 'IM Fell French Canon SC', serif;
+	color:rgb(0, 0, 0);
+}
+#relatorio:hover a{
+	color:#fff;
+}
+#relatorio:hover{
+	background: #050505;
+	color:#fff;
+}
+#txt:hover a{
+	color:#fff;
+}
+#txt:hover{
+	background: #050505;
+	color:#fff;
+}
+#conteudotxt{
+	width:100%;
+	height:60px;
+	background: #c00;
+	opacity:0.5;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	position: absolute;
+	top:0;
+	left:0;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+form label{
+	display:block;
+	padding-top:5px;
+}
+.acomodar{
+	margin:0 auto;
+	width:250px;
+}
+.txt{
+	border:none;
+	height:40px;
+	width:250px;
+	border:thin solid#f1f1f1;
+}
+.txt:focus{
+	border:thin solid rgb(3, 2, 10);
+	box-shadow: 0 2px 10px rgb(2, 6, 8);
+	-webkit-box-shadow: 0 2px 10px rgb(2, 5, 7);
+	-moz-box-shadow: 0 2px 10px rgb(4, 9, 12);
+}
+.sb{
+	display:block;
+	border:none;
+	width:250px;
+	height:40px;
+	margin-top:10px;
+	cursor:pointer;
+	font-family: 'IM Fell French Canon SC', serif;
+	background:rgb(148, 150, 160);
+}
+.sb:hover{
+	background:rgb(0, 0, 0);
+	color:#fff;
+}.message{
+	width:100%;
+	padding:1px;
+	color: #000000;
+	background: #f1f1f1;
+	text-align: center;
+	position:relative;
+	font-family: 'IM Fell French Canon SC', serif;
+
+
+}
+.grafico{
+	position: relative;
+	font-family: 'IM Fell French Canon SC', serif;
+	width:800px;
+	height:600px;
+	align-content: center;
+	margin:auto;
+	top:10em;
+}
+/*Classes de herança*/
+.bradius{
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+/*Múltiplos estilos */
+.txt,.txt:focus,.sb,.sb:hover,#cadastrar:hover,#cadastrar,#relatorio:hover,#relatorio,#txt{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}
+
